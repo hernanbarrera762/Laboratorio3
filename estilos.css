@@ -75,30 +75,32 @@ p {
 }
 
 .logotiktok {
-    display: inline-block;
     font-size: 400%;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.566);
+    transition: borderground-color 0.5g; rotate: 0.5s;
 }
 .logotiktok:hover{
-    transition: all;
+    transition: 1s;
     color: white;
     font-size: 430%;
-    transition: 0.5s;
+    transition: 1s;
+    rotate: 360deg;
 }
 .logoig {
-    display: inline;
     margin: 5px;
     font-size: 400%;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.566);
-    border-radius: 23px;
+    transition: background-color 0.5g, rotate 0.5s ;
 }
 .logoig:hover{
     font-size: 430%;
     color: white;
-    transition: 0.5s;
+    rotate: 360deg;
+    transition: 1s;
 }
+
 .links div{
     width: 50%;
 }
