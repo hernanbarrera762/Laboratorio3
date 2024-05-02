@@ -1,60 +1,71 @@
-body{
+header{
+    display: flex
+}
+.body_div{
+    display: flex;
+}
+body {
     background-color: rgb(228, 228, 228);
 }
-h1{
-    text-decoration: dashed;
-    font-size: 23px;
+.Encabezado {
     text-align: center;
-
+    background-color: brown;
+    width: 100%;
 }
-h2{
-    font-size: 15px;
-    text-align: left;
+h1 {
+    text-decoration: dashed;
+    font-size: 400%;
+    display: inline;
+    border-radius: 5%;
+    background-color: blue;
+    text-align: center;
 }
-p{
-    color: rebeccapurple;
-    
-}
-h1:hover{
+h1:hover {
     background-color: rgb(233, 84, 74);
     transition: all;
     transition-duration: 0.5s;
-    border-radius: 3%;
 }
-
-.logotiktok{
+.mi{
+    text-align: center;
+    padding-top: 20px;
+}
+h2 {
+    display: inline;
+    font-size: 300%;
+    background-color: blue;
+    text-align: center;
+}
+p {
+    color: rebeccapurple;
+}
+.logotiktok {
     margin: 5px;
     font-size: 15px;
     cursor: pointer;
     color: black;
+    background-color: blue;
 }
-
-.logoig{
+.logoig {
     margin: 5px;
     font-size: 15px;
     cursor: pointer;
     color: black;
+    background-color: blueviolet;
 }
-.logoig:hover{
+.logoig:hover {
     text-decoration: dotted;
 }
-a{
+a {
     text-decoration: none;
 }
-p{
-    font-size: small;
-    padding: 0,4%;
-}
-.parrafo1{
+.parrafo1 {
     width: 300px;
     text-align: justify;
+    font-size: small;
+    padding: 0, 4%;
+    background-color: cadetblue;
 }
-h5{
+h5 {
     font-display: 20px;
     text-decoration: dotted;
-}
-img{
-    width: 200px;
-    height: 200px;
-    display: block;
 }
