@@ -18,8 +18,10 @@ h1 {
     color: rgb(251, 244, 213);
 }
 h1:hover {
+    background-color: #454545;
     transition: all;
     transition-duration: 0.5s;
+    color: azure;
 }
 .mi{
     text-align: center;
@@ -31,6 +33,12 @@ h2 {
     background-color: #62154d;
     text-align: center;
     color: blanchedalmond;
+}
+h2:hover{
+    background-color: #454545;
+    transition: all;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
 }
 /*cuerpo rojo*/
 .body_div{
@@ -48,6 +56,7 @@ h2 {
     display: flex;
     justify-content: flex-end;
     padding-right: 10%;
+    padding-top: 3%;
 }
 img{
     width: 60%;
@@ -55,6 +64,7 @@ img{
 }
 /*parrafo*/
 p {
+    padding-top: 7%;
     color: rgb(154, 216, 233);
     font-size: 230%;
     width: 90%;
@@ -70,6 +80,12 @@ p {
     cursor: pointer;
     color: rgba(255, 255, 255, 0.566);
 }
+.logotiktok:hover{
+    transition: all;
+    color: white;
+    font-size: 430%;
+    transition: 0.5s;
+}
 .logoig {
     display: inline;
     margin: 5px;
@@ -77,6 +93,11 @@ p {
     cursor: pointer;
     color: rgba(255, 255, 255, 0.566);
     border-radius: 23px;
+}
+.logoig:hover{
+    font-size: 430%;
+    color: white;
+    transition: 0.5s;
 }
 .links div{
     width: 50%;
@@ -107,7 +128,8 @@ h5{
 }
 h5:hover{
     text-decoration: dashed;
-    background-color: black;
+    background-color: rgb(126, 125, 125);
     transition: all;
     transition: 0.5s;
+    color: aliceblue;
 }
