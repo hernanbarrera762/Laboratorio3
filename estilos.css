@@ -2,7 +2,7 @@ header{
     display: flex
 }
 body {
-    background-color: rgb(43, 19, 19);
+    background-color: rgb(12, 5, 5);
 }
 .Encabezado {
     text-align: center;
@@ -13,9 +13,9 @@ h1 {
     font-size: 400%;
     display: inline;
     border-radius: 5%;
-    background-color: rgb(130, 67, 67);
+    background-color: rgb(116, 20, 100);
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(251, 244, 213);
 }
 h1:hover {
     transition: all;
@@ -28,14 +28,14 @@ h1:hover {
 h2 {
     display: inline;
     font-size: 300%;
-    background-color: #494938;
+    background-color: #62154d;
     text-align: center;
     color: blanchedalmond;
 }
 /*cuerpo rojo*/
 .body_div{
     width: 90%;
-    background-color: brown;
+    background-color: rgba(64, 136, 186, 0.652);
     display: flex;
     padding-left: 10%;
 }
@@ -55,7 +55,7 @@ img{
 }
 /*parrafo*/
 p {
-    color: rgb(120, 120, 120);
+    color: rgb(154, 216, 233);
     font-size: 230%;
     width: 90%;
     font-style: initial;
