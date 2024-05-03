@@ -141,3 +141,13 @@ h5:hover{
     transition: 0.5s;
     color: aliceblue;
 }
+.Perfiles{
+    display: flex;
+}
+.Perfiles img{
+    opacity: 0;
+    width: 50%;
+}
+.Perfiles:hover{
+    
+}
