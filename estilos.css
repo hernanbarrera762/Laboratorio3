@@ -149,8 +149,18 @@ h5:hover{
     width: 100%;
 }
 .Perfiltik{
-    opacity: 80%;
+    opacity: 70%;
+    transition: 0.5s;
 }
 .Perfilig{
-    opacity: 80%;
+    opacity: 70%;
+    transition: 0.5s;
+}
+.Perfiltik:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+.Perfilig:hover{
+    opacity: 100%;
+    transition: 0.5s;
 }
