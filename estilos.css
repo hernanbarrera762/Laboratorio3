@@ -136,6 +136,7 @@ h5{
     color: #494938;
     border-radius: 5%;
     display: inline;
+    transition: 0.5s;
 }
 h5:hover{
     text-decoration: dashed;
