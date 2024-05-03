@@ -143,11 +143,14 @@ h5:hover{
 }
 .Perfiles{
     display: flex;
+    width: 100%;
 }
 .Perfiles img{
-    opacity: 0;
-    width: 50%;
+    width: 100%;
 }
-.Perfiles:hover{
-    
+.Perfiltik{
+    opacity: 80%;
+}
+.Perfilig{
+    opacity: 80%;
 }
