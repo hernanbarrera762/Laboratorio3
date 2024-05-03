@@ -61,10 +61,16 @@ h2:hover{
 img{
     width: 60%;
     height: 90%;
+    border: 3px solid black;
+}
+.img:hover{
+    border: white;
+    border: 5px;
+    transition: 3s;
 }
 /*parrafo*/
 p {
-    padding-top: 7%;
+    padding-top: 8%;
     color: rgb(154, 216, 233);
     font-size: 230%;
     width: 90%;
